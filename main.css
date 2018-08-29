@@ -1,3 +1,7 @@
+@font-face {
+    font-family: HelveticaNeue;
+    src: url('font/hell.ttf'); /* this points to folder where you uploaded your custom font */
+}
 .navbar-header{
     width: 225px;
       height: 54px;
@@ -91,7 +95,7 @@ table {
     border-collapse: collapse;
     width: 1115.9px;
       height: 40px;
-      margin: 100px 0 0 126px;
+      margin: 70px 0 0 126px;
 }
 th, td {
     text-align: left;
@@ -120,8 +124,8 @@ tbody{
 
 }
 #box{
-    width: 32px;
-      height: 32px;
+    width: 50px;
+      height: 50px;
       border-radius: 5px;
       border: solid 1px #a2ded0;
 }
@@ -138,7 +142,7 @@ tbody{
         background-color: #f2635c;
 }
 .summarycont{
-    margin: 7px 0 7px 0;
+    margin: 15px 0 15px 0;
 }
 .num{
     margin-left:150px;
@@ -154,7 +158,7 @@ tbody{
      color: #666666;
 }
 .percent{
-width: 30px;
+  width: 30px;
   height: 17px;
   font-family: HelveticaNeue;
   font-size: 11px;
@@ -168,4 +172,31 @@ width: 30px;
       font-size: 11px;
       font-weight: 300;
         color: white;
+}
+.chart-text {
+  font: 16px/1.4em "Montserrat", Arial, sans-serif;
+  fill: #000;
+  color: #f2635c;
+  -moz-transform: translateY(0.25em);
+  -ms-transform: translateY(0.25em);
+  -webkit-transform: translateY(0.25em);
+  transform: translateY(0.25em);
+}
+
+.chart-number {
+  font-size: 0.3em;
+  text-anchor: middle;
+  -moz-transform: translateY(-0.25em);
+  -ms-transform: translateY(-0.25em);
+  -webkit-transform: translateY(-0.25em);
+  transform: translateY(-0.25em);
+}
+
+.chart-label {
+  font-size: 0.3em;
+  text-anchor: middle;
+  -moz-transform: translateY(0.7em);
+  -ms-transform: translateY(0.7em);
+  -webkit-transform: translateY(0.7em);
+  transform: translateY(0.7em);
 }
